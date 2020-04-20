@@ -1,13 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/iroha2"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    tools:context=".MainActivity">
 
 
-
+    <Button
+        android:id="@+id/startActBtn"
+        android:layout_width="96dp"
+        android:layout_height="107dp"
+        android:background="@drawable/acti" />
 
 
     <TextView
@@ -62,6 +68,11 @@
                 android:id="@+id/tvDivide"
                 style="@style/ActionButtonStyle"
                 android:text="/" />
+
+            <!-- <TextView
+               android:id="@+id/tvPercent"
+                style="@style/ActionButtonStyle"
+                android:text="%"/> -->
 
 
         </LinearLayout>
